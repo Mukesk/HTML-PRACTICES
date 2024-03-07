@@ -1,0 +1,50 @@
+body{
+    height: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+i{
+    display: inherit;
+    color: coral;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+        
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    height: 200px;
+    box-shadow: 20px, gray;
+
+    
+    
+
+    
+
+}
+.logo{
+    flex-basis: 300px;
+}
+.holder{
+    flex-basis: 300px
+}
+.no{
+    flex-basis:300px;
+    
+}
+.date{
+    flex-basis: 400px;
+    text-align: end;
+}
